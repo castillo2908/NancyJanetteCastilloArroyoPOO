@@ -1,0 +1,7 @@
+modelo de ciclo de vida de desarrollo de soft
+cascada
+espiral
+xp
+rac
+scrum
+

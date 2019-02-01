@@ -38,11 +38,33 @@ public class Circle {
         System.out.printhln("El area de circle1 es:" + circle3.getArea());
 
         circle1.calcPerimeter("El perimetro de circle1 es:"+ circle1.getPerimeter());
-        circle2.calcPerimeter("El perimetro de circle1 es:"+ circle2.getPerimeter());
-        circle3.calcPerimeter("El perimetro de circle1 es:"+ circle3.getPerimeter());
+        circle2.calcPerimeter("El perimetro de circle2 es:"+ circle2.getPerimeter());
+        circle3.calcPerimeter("El perimetro de circle3 es:"+ circle3.getPerimeter());
 
         System.out.printhln("El perimetro de circle1 es:" + circle1.getPerimeter());
         System.out.printhln("El perimetro de circle2 es:" + circle2.getPerimeter());
-        System.out.printhln("El perimetro de circle1 es:" + circle3.getPerimeter());
+        System.out.printhln("El perimetro de circle3 es:" + circle3.getPerimeter());
     }
 }
+
+
+
+
+
+
+System.out.println(cliente1.toString());
+System.out.println("Ingresa la cantidad ");
+cliente1.ingresar(500);
+System.out.println("Ingresa la cantidad ");
+cliente1.ingresar(100.23);
+
+System.out.println(cliente1.toString());
+
+cliente1.retirar(50);
+cliente1.retirar(50);
+cliente1.retirar(50);
+
+System.out.println(cliente1.toString());
+
+cliente1.getTitular();
+cliente1.getCantidad();

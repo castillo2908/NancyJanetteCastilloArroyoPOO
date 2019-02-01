@@ -4,21 +4,21 @@ public class Rectangle {
 
     //Metodo
     public void calcArea(){
-       area = base * altura
+       area = (width * length);
     }
     public void calcPerimeter(){
-        perimeter =  (2 * base) + (altura * 2); 
+        perimeter =  (2 * length) + (width * 2); 
     }
     public double getArea(){
-        return 0.0;
+        return ;
     }
     public double getPerimeter(){
         return 0.0;
     }
-    public void setLength(length double){
+    public void setLength(double Length){
 
     }
-    public void setWidth(doblu Width){
+    public void setWidth(double Width){
         
     }
         public static void main(String[] args){
@@ -32,18 +32,24 @@ public class Rectangle {
         rectangle2.width = 12d;
         rectangle3.width = 30d;
 
+        rectangle1.length = 2.1d;
+        rectangle2.length = 14d;
+        rectangle3.length = 12d;
+
         rectangle1.calcArea();
         rectangle2.calcArea();
         rectangle3.calcArea();
 
-        System.out.printhln("El area de rectangle1 es:" + rectangle1.getArea());
-        System.out.printhln("El area de rectangle2 es:" + rectangle2.getArea());
-        System.out.printhln("El area de rectangle3 es:" + rectangle3.getArea());
+        System.out.println("El area de rectangle1 es:" + rectangle1.getArea());
+        System.out.println("El area de rectangle2 es:" + rectangle2.getArea());
+        System.out.println("El area de rectangle3 es:" + rectangle3.getArea());
 
-        rectangle1.calcPerimeter("El perimetro de rectangle1 es:"+ rectangle1.getPerimeter());
-        rectangle2.calcPerimeter("El perimetro de rectangle2 es:"+ rectangle2.getPerimeter());
-        rectangle3.calcPerimeter("El perimetro de rectangle3 es:"+ rectangle3.getPerimeter());
+        rectangle1.calcPerimeter();
+        rectangle2.calcPerimeter();
+        rectangle3.calcPerimeter();
 
-        System.out.printhln("El perimetro de rectangle1 es:" + rectangle1.getPerimeter());
-        System.out.printhln("El perimetro de rectangle2 es:" + rectangle2.getPerimeter());
-        System.out.printhln("El perimetro de rectangle3 es:" + rectangle3.getPerimeter());
+        System.out.println("El perimetro de rectangle1 es:" + rectangle1.getPerimeter());
+        System.out.println("El perimetro de rectangle2 es:" + rectangle2.getPerimeter());
+        System.out.println("El perimetro de rectangle3 es:" + rectangle3.getPerimeter());
+        }
+}
