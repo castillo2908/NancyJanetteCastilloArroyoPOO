@@ -1,46 +1,10 @@
-import java.util.Scanner; 
-public class Operaciones {
-    //Atributos
+public class Operaciones{
+    public static void main(String args[]){
+        int num1 = 4;
+        int num2 = 12;
+        int resul = 0;
 
-    public double a;
-    public double b;
-
-    //Metodos
-
-    public double sumarNumeros(){
-        return a + b;
+        resul = num1 + num2 / 2;
+        System.out.println("El resultado es: " + resul);
     }
-
-    public double restarNumeros(){
-        return a - b;
-
-    }
-
-    public double dividirNumeros(){
-        return a / b;
-
-    }
-
-    public double multiplicarNumeros(){
-        return a * b;
-
-    }
-    public static void main(String[] args){
-        Operaciones operaciones1 = new Operaciones();
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Numero 1:");
-        operaciones1.a = scanner.nextDouble();
-
-        System.out.println("Numero 2:");
-        operaciones1.b = scanner.nextDouble();
-
-
-            double suma = operaciones1.sumarNumeros();
-
-        System.out.println("El resutado es: " + suma);
-        
-    }
-
-    }
+}
